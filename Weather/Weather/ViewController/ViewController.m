@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "WeatherView.h"
 
 @interface ViewController ()
+
+@property(nonatomic, strong) WeatherView        *weatherView;
 
 @end
 
@@ -16,13 +19,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    _weatherView                     = [[WeatherView alloc] initWithFrame:self.view.bounds];
+    _weatherView.layer.masksToBounds = YES;
+    [_weatherView buildView];
+    [self.view addSubview:_weatherView];
 }
 
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 
