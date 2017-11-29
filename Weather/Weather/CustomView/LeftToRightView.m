@@ -25,6 +25,8 @@
         self.endFrame   = CGRectMake(x + width, y, 0, height);
         
         self.frame      = self.startFrame;
+        self.alpha      = 0.1;
+        self.backgroundColor = [UIColor blackColor];
     }
     
     return self;

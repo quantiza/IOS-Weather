@@ -10,4 +10,12 @@
 
 @interface WeatherIconView : UIView
 
+/**
+ *  天气文本
+ */
+@property (nonatomic, strong) NSNumber  *weatherNumber;
+
+- (void)show;
+- (void)hide;
+
 @end

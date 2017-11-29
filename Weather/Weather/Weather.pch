@@ -15,3 +15,4 @@
 #endif /* Weather_pch */
 
 #import "UIView+SetRect.h"
+#import "AddFont/AddedFont.h"

@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F578D4A1FCE49190072703F /* CityTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F578D491FCE49190072703F /* CityTitleView.m */; };
+		0F578D4D1FCE55F60072703F /* CGRectStoreValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F578D4C1FCE55F60072703F /* CGRectStoreValue.m */; };
+		0F578D551FCE59330072703F /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F578D501FCE59330072703F /* Lato-Thin.ttf */; };
+		0F578D561FCE59330072703F /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F578D511FCE59330072703F /* Lato-Bold.ttf */; };
+		0F578D571FCE59330072703F /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F578D521FCE59330072703F /* Lato-Regular.ttf */; };
+		0F578D581FCE59330072703F /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F578D531FCE59330072703F /* Lato-Light.ttf */; };
+		0F578D591FCE59330072703F /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F578D541FCE59330072703F /* Lato-ThinItalic.ttf */; };
+		0F578D5E1FCE91950072703F /* TitleMoveLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F578D5D1FCE91950072703F /* TitleMoveLabel.m */; };
 		0F7CB46A1FCD60B600B45F02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7CB4691FCD60B600B45F02 /* AppDelegate.m */; };
 		0F7CB4721FCD60B600B45F02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F7CB4711FCD60B600B45F02 /* Assets.xcassets */; };
 		0F7CB4751FCD60B600B45F02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F7CB4731FCD60B600B45F02 /* LaunchScreen.storyboard */; };
@@ -28,6 +36,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F578D481FCE49190072703F /* CityTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CityTitleView.h; sourceTree = "<group>"; };
+		0F578D491FCE49190072703F /* CityTitleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityTitleView.m; sourceTree = "<group>"; };
+		0F578D4B1FCE55F60072703F /* CGRectStoreValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGRectStoreValue.h; sourceTree = "<group>"; };
+		0F578D4C1FCE55F60072703F /* CGRectStoreValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGRectStoreValue.m; sourceTree = "<group>"; };
+		0F578D4F1FCE59330072703F /* AddedFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddedFont.h; sourceTree = "<group>"; };
+		0F578D501FCE59330072703F /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
+		0F578D511FCE59330072703F /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		0F578D521FCE59330072703F /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		0F578D531FCE59330072703F /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		0F578D541FCE59330072703F /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
+		0F578D5A1FCE7CD30072703F /* Weather&Time.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Weather&Time.ttf"; sourceTree = "<group>"; };
+		0F578D5C1FCE91950072703F /* TitleMoveLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TitleMoveLabel.h; sourceTree = "<group>"; };
+		0F578D5D1FCE91950072703F /* TitleMoveLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TitleMoveLabel.m; sourceTree = "<group>"; };
 		0F7CB4651FCD60B500B45F02 /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F7CB4681FCD60B600B45F02 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0F7CB4691FCD60B600B45F02 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -77,6 +98,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F578D4E1FCE59330072703F /* AddFont */ = {
+			isa = PBXGroup;
+			children = (
+				0F578D4F1FCE59330072703F /* AddedFont.h */,
+				0F578D501FCE59330072703F /* Lato-Thin.ttf */,
+				0F578D511FCE59330072703F /* Lato-Bold.ttf */,
+				0F578D521FCE59330072703F /* Lato-Regular.ttf */,
+				0F578D531FCE59330072703F /* Lato-Light.ttf */,
+				0F578D541FCE59330072703F /* Lato-ThinItalic.ttf */,
+				0F578D5A1FCE7CD30072703F /* Weather&Time.ttf */,
+			);
+			path = AddFont;
+			sourceTree = "<group>";
+		};
+		0F578D5B1FCE91750072703F /* UtilView */ = {
+			isa = PBXGroup;
+			children = (
+				0F578D5C1FCE91950072703F /* TitleMoveLabel.h */,
+				0F578D5D1FCE91950072703F /* TitleMoveLabel.m */,
+			);
+			path = UtilView;
+			sourceTree = "<group>";
+		};
 		0F7CB45C1FCD60B500B45F02 = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				0F7CB4AC1FCDA9AE00B45F02 /* Line */,
+				0F578D5B1FCE91750072703F /* UtilView */,
 				0F7CB4901FCD97B100B45F02 /* SubViews */,
 				0F7CB4861FCD67B800B45F02 /* WeatherView.h */,
 				0F7CB4871FCD67B800B45F02 /* WeatherView.m */,
@@ -162,6 +207,8 @@
 				0F7CB49E1FCD983500B45F02 /* TemperatureView.m */,
 				0F7CB4A01FCD984300B45F02 /* WeatherIconView.h */,
 				0F7CB4A11FCD984300B45F02 /* WeatherIconView.m */,
+				0F578D481FCE49190072703F /* CityTitleView.h */,
+				0F578D491FCE49190072703F /* CityTitleView.m */,
 			);
 			path = SubViews;
 			sourceTree = "<group>";
@@ -169,6 +216,8 @@
 		0F7CB4A61FCD9AEC00B45F02 /* SetRect */ = {
 			isa = PBXGroup;
 			children = (
+				0F578D4B1FCE55F60072703F /* CGRectStoreValue.h */,
+				0F578D4C1FCE55F60072703F /* CGRectStoreValue.m */,
 				0F7CB4A71FCD9AEC00B45F02 /* UIView+SetRect.m */,
 				0F7CB4A81FCD9AEC00B45F02 /* UIView+SetRect.h */,
 			);
@@ -178,6 +227,7 @@
 		0F7CB4AA1FCDA12000B45F02 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				0F578D4E1FCE59330072703F /* AddFont */,
 				0F7CB4731FCD60B600B45F02 /* LaunchScreen.storyboard */,
 				0F7CB4761FCD60B600B45F02 /* Info.plist */,
 				0F7CB4771FCD60B600B45F02 /* main.m */,
@@ -258,7 +308,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F7CB4751FCD60B600B45F02 /* LaunchScreen.storyboard in Resources */,
+				0F578D591FCE59330072703F /* Lato-ThinItalic.ttf in Resources */,
+				0F578D551FCE59330072703F /* Lato-Thin.ttf in Resources */,
+				0F578D571FCE59330072703F /* Lato-Regular.ttf in Resources */,
+				0F578D581FCE59330072703F /* Lato-Light.ttf in Resources */,
 				0F7CB4721FCD60B600B45F02 /* Assets.xcassets in Resources */,
+				0F578D561FCE59330072703F /* Lato-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +327,7 @@
 				0F7CB4961FCD980400B45F02 /* WindSpeedView.m in Sources */,
 				0F7CB4991FCD981500B45F02 /* MaxTempView.m in Sources */,
 				0F7CB4931FCD97E600B45F02 /* HumidityView.m in Sources */,
+				0F578D4A1FCE49190072703F /* CityTitleView.m in Sources */,
 				0F7CB4831FCD657B00B45F02 /* ViewController.m in Sources */,
 				0F7CB4B51FCDAB1000B45F02 /* UpToDownView.m in Sources */,
 				0F7CB4B21FCDAAFE00B45F02 /* LeftToRightView.m in Sources */,
@@ -279,8 +335,10 @@
 				0F7CB48F1FCD8EF900B45F02 /* CurrentConditions.m in Sources */,
 				0F7CB49F1FCD983500B45F02 /* TemperatureView.m in Sources */,
 				0F7CB48C1FCD8EE000B45F02 /* CurrentWeatherData.m in Sources */,
+				0F578D5E1FCE91950072703F /* TitleMoveLabel.m in Sources */,
 				0F7CB4781FCD60B600B45F02 /* main.m in Sources */,
 				0F7CB4A91FCD9AEC00B45F02 /* UIView+SetRect.m in Sources */,
+				0F578D4D1FCE55F60072703F /* CGRectStoreValue.m in Sources */,
 				0F7CB46A1FCD60B600B45F02 /* AppDelegate.m in Sources */,
 				0F7CB4AF1FCDA9D700B45F02 /* LineAnimationView.m in Sources */,
 				0F7CB4881FCD67B800B45F02 /* WeatherView.m in Sources */,
@@ -410,12 +468,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				GCC_PREFIX_HEADER = $SRCROOT/$PRODUCT_NAME/Weather.pch;
 				INFOPLIST_FILE = Weather/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = YL.Weather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -424,12 +485,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				GCC_PREFIX_HEADER = $SRCROOT/$PRODUCT_NAME/Weather.pch;
 				INFOPLIST_FILE = Weather/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = YL.Weather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

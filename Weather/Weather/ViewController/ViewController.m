@@ -23,12 +23,13 @@
     _weatherView.layer.masksToBounds = YES;
     [_weatherView buildView];
     [self.view addSubview:_weatherView];
+    
+    [_weatherView show];
 }
 
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
 }
-
 
 @end

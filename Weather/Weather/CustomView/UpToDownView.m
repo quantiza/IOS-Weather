@@ -25,9 +25,44 @@
         self.endFrame   = CGRectMake(x, y + height, width, 0);
         
         self.frame      = self.startFrame;
+        self.alpha      = 0.1;
+        self.backgroundColor = [UIColor blackColor];
     }
     
     return self;
 }
 
+- (void)show {
+    
+    [UIView animateWithDuration:self.fadeToShowDuration
+                     animations:^{
+                         self.alpha = self.maxAlpha;
+                         self.frame = self.midFrame;
+                     }];
+}
+
+- (void)hide {
+    
+    [UIView animateWithDuration:self.fadeToHideDuration
+                     animations:^{
+                         self.alpha = 0.0;
+                         self.frame = self.endFrame;
+                     } completion:^(BOOL finished) {
+                         self.alpha = 0.0;
+                         self.frame = self.startFrame;
+                     }];
+}
+
 @end
+
+
+
+
+
+
+
+
+
+
+
+
