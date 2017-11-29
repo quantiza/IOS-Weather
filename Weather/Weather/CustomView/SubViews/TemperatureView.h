@@ -10,4 +10,9 @@
 
 @interface TemperatureView : UIView
 
+@property (nonatomic, assign) CGFloat temperature;
+
+- (void)show;
+- (void)hide;
+
 @end

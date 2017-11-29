@@ -11,6 +11,7 @@
 @interface TemperatureView ()
 
 @property (nonatomic, strong) UILabel *titleMoveLabel;
+@property (nonatomic, strong) UILabel *countLabel;
 
 @end
 
@@ -37,6 +38,58 @@
     _titleMoveLabel.textColor       = [UIColor blackColor];
     [_titleMoveLabel sizeToFit];
     [self addSubview:_titleMoveLabel];
+    
+    _temperature = 30;
+    _countLabel                     = [[UILabel alloc] initWithFrame:CGRectMake(20, 40, 160, 140)];
+    _countLabel.text                = [NSString stringWithFormat:@"%.0lf", _temperature];
+    _countLabel.textAlignment       = NSTextAlignmentCenter;
+    _countLabel.textColor           = COLOR_PURE_;
+    _countLabel.font                = [UIFont fontWithName:LATO_THIN size:90];
+    [_countLabel sizeToFit];
+    [self addSubview:_countLabel];
 }
 
 @end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -16,3 +16,4 @@
 
 #import "UIView+SetRect.h"
 #import "AddFont/AddedFont.h"
+#import "AppColor.h"

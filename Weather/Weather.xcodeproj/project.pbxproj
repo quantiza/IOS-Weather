@@ -15,6 +15,10 @@
 		0F578D581FCE59330072703F /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F578D531FCE59330072703F /* Lato-Light.ttf */; };
 		0F578D591FCE59330072703F /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F578D541FCE59330072703F /* Lato-ThinItalic.ttf */; };
 		0F578D5E1FCE91950072703F /* TitleMoveLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F578D5D1FCE91950072703F /* TitleMoveLabel.m */; };
+		0F578D611FCEA6C50072703F /* WeatherNumberMeaningTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F578D601FCEA6C40072703F /* WeatherNumberMeaningTransform.m */; };
+		0F578D641FCEA8540072703F /* UIView+GlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F578D621FCEA8530072703F /* UIView+GlowView.m */; };
+		0F578D671FCEA9990072703F /* EmitterLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F578D651FCEA9980072703F /* EmitterLayerView.m */; };
+		0F578D6C1FCEAAA30072703F /* NSString+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F578D6A1FCEAAA30072703F /* NSString+Color.m */; };
 		0F7CB46A1FCD60B600B45F02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7CB4691FCD60B600B45F02 /* AppDelegate.m */; };
 		0F7CB4721FCD60B600B45F02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F7CB4711FCD60B600B45F02 /* Assets.xcassets */; };
 		0F7CB4751FCD60B600B45F02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F7CB4731FCD60B600B45F02 /* LaunchScreen.storyboard */; };
@@ -49,6 +53,15 @@
 		0F578D5A1FCE7CD30072703F /* Weather&Time.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Weather&Time.ttf"; sourceTree = "<group>"; };
 		0F578D5C1FCE91950072703F /* TitleMoveLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TitleMoveLabel.h; sourceTree = "<group>"; };
 		0F578D5D1FCE91950072703F /* TitleMoveLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TitleMoveLabel.m; sourceTree = "<group>"; };
+		0F578D5F1FCEA6C40072703F /* WeatherNumberMeaningTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherNumberMeaningTransform.h; sourceTree = "<group>"; };
+		0F578D601FCEA6C40072703F /* WeatherNumberMeaningTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherNumberMeaningTransform.m; sourceTree = "<group>"; };
+		0F578D621FCEA8530072703F /* UIView+GlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GlowView.m"; sourceTree = "<group>"; };
+		0F578D631FCEA8530072703F /* UIView+GlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GlowView.h"; sourceTree = "<group>"; };
+		0F578D651FCEA9980072703F /* EmitterLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmitterLayerView.m; sourceTree = "<group>"; };
+		0F578D661FCEA9990072703F /* EmitterLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterLayerView.h; sourceTree = "<group>"; };
+		0F578D691FCEAAA30072703F /* NSString+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Color.h"; sourceTree = "<group>"; };
+		0F578D6A1FCEAAA30072703F /* NSString+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Color.m"; sourceTree = "<group>"; };
+		0F578D6B1FCEAAA30072703F /* AppColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppColor.h; sourceTree = "<group>"; };
 		0F7CB4651FCD60B500B45F02 /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F7CB4681FCD60B600B45F02 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0F7CB4691FCD60B600B45F02 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -115,10 +128,26 @@
 		0F578D5B1FCE91750072703F /* UtilView */ = {
 			isa = PBXGroup;
 			children = (
+				0F578D661FCEA9990072703F /* EmitterLayerView.h */,
+				0F578D651FCEA9980072703F /* EmitterLayerView.m */,
+				0F578D631FCEA8530072703F /* UIView+GlowView.h */,
+				0F578D621FCEA8530072703F /* UIView+GlowView.m */,
+				0F578D5F1FCEA6C40072703F /* WeatherNumberMeaningTransform.h */,
+				0F578D601FCEA6C40072703F /* WeatherNumberMeaningTransform.m */,
 				0F578D5C1FCE91950072703F /* TitleMoveLabel.h */,
 				0F578D5D1FCE91950072703F /* TitleMoveLabel.m */,
 			);
 			path = UtilView;
+			sourceTree = "<group>";
+		};
+		0F578D681FCEAAA30072703F /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				0F578D691FCEAAA30072703F /* NSString+Color.h */,
+				0F578D6A1FCEAAA30072703F /* NSString+Color.m */,
+				0F578D6B1FCEAAA30072703F /* AppColor.h */,
+			);
+			path = Color;
 			sourceTree = "<group>";
 		};
 		0F7CB45C1FCD60B500B45F02 = {
@@ -227,6 +256,7 @@
 		0F7CB4AA1FCDA12000B45F02 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				0F578D681FCEAAA30072703F /* Color */,
 				0F578D4E1FCE59330072703F /* AddFont */,
 				0F7CB4731FCD60B600B45F02 /* LaunchScreen.storyboard */,
 				0F7CB4761FCD60B600B45F02 /* Info.plist */,
@@ -324,21 +354,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F578D641FCEA8540072703F /* UIView+GlowView.m in Sources */,
 				0F7CB4961FCD980400B45F02 /* WindSpeedView.m in Sources */,
 				0F7CB4991FCD981500B45F02 /* MaxTempView.m in Sources */,
 				0F7CB4931FCD97E600B45F02 /* HumidityView.m in Sources */,
 				0F578D4A1FCE49190072703F /* CityTitleView.m in Sources */,
 				0F7CB4831FCD657B00B45F02 /* ViewController.m in Sources */,
 				0F7CB4B51FCDAB1000B45F02 /* UpToDownView.m in Sources */,
+				0F578D611FCEA6C50072703F /* WeatherNumberMeaningTransform.m in Sources */,
 				0F7CB4B21FCDAAFE00B45F02 /* LeftToRightView.m in Sources */,
 				0F7CB4A21FCD984300B45F02 /* WeatherIconView.m in Sources */,
 				0F7CB48F1FCD8EF900B45F02 /* CurrentConditions.m in Sources */,
 				0F7CB49F1FCD983500B45F02 /* TemperatureView.m in Sources */,
 				0F7CB48C1FCD8EE000B45F02 /* CurrentWeatherData.m in Sources */,
 				0F578D5E1FCE91950072703F /* TitleMoveLabel.m in Sources */,
+				0F578D6C1FCEAAA30072703F /* NSString+Color.m in Sources */,
 				0F7CB4781FCD60B600B45F02 /* main.m in Sources */,
 				0F7CB4A91FCD9AEC00B45F02 /* UIView+SetRect.m in Sources */,
 				0F578D4D1FCE55F60072703F /* CGRectStoreValue.m in Sources */,
+				0F578D671FCEA9990072703F /* EmitterLayerView.m in Sources */,
 				0F7CB46A1FCD60B600B45F02 /* AppDelegate.m in Sources */,
 				0F7CB4AF1FCDA9D700B45F02 /* LineAnimationView.m in Sources */,
 				0F7CB4881FCD67B800B45F02 /* WeatherView.m in Sources */,
